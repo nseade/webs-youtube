@@ -1,11 +1,12 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Search = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <Main>
+            Search
+        </Main>
+    )
 }
 
 export default Search

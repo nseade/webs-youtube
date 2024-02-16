@@ -1,11 +1,12 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Website = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <Main>
+            Website
+        </Main>
+    )
 }
 
 export default Website
