@@ -2,7 +2,7 @@ import React from 'react'
 
 const Search = () => {
     return (
-        <diuv id ='search'>
+        <div id ='search'>
             <div className='search_inner'>
                 <label htmlFor='cearchInput'>
                     <span className='ir'>검색</span>
@@ -17,7 +17,7 @@ const Search = () => {
                 />
 
             </div>
-        </diuv>
+        </div>
     )
 }
 
