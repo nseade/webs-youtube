@@ -1,14 +1,14 @@
 import React from 'react'
 
-import { gsapText } from '../../data/gsap'
+import { portfolioText } from '../../data/portfolio'
 import { Link } from 'react-router-dom'
 
-const Gsap = () => {
+const Portfolio = () => {
     return (
-        <section id='gsap'>
-            <h2>🤓 GSAP 패럴랙스 효과를 하고 싶다면!</h2>
+        <section id='portfolio'>
+            <h2>🤗 포트폴리오 만드는 방법을 공유합니다.</h2>
             <div className='video_inner'>
-                {gsapText.map((video, key) => (
+                {portfolioText.map((video, key) => (
                     <div className="video" key={key}>
                         <div className="video_thumb play_icon">
                             <Link to={`/video/${video.videoId}`}>
@@ -22,4 +22,4 @@ const Gsap = () => {
     )
 }
 
-export default Gsap
+export default Portfolio
